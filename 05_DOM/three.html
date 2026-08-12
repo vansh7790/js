@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+    
+</body>
+<script>
+    const div = document.createElement('div');// This will create a new div element but it will not be added to the DOM yet
+    console.log(div);// This will log the newly created div element to the console
+    div.className = "day";// This will set the class name of the newly created div element to "day"
+    div.id ="day5";// This will set the id of the newly created div element to "day5"
+    div.setAttribute("title","This is day 5");// This will set the title attribute of the newly created div element to "This is day 5"
+    div.innerText = "Friday";// This will set the inner text of the newly created div
+    div.style.backgroundColor = "green";// This will set the background color of the newly created div element to green
+    div.style.padding = "10px";// This will set the padding of the newly created div element to 10px
+    div.innerHTML = "<h1>Friday</h1>";// This will set the inner HTML of the newly created div element to "<h1>Friday</h1>"q
+
+    
+    document.body.appendChild(div);// This will append the newly created div element to the body of the document, making it visible on the page
+</script>
+</html>
